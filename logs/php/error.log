@@ -1,0 +1,203 @@
+[05-Apr-2024 22:02:00 UTC] PHP Parse error:  Unmatched '}' in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\functions.php on line 227
+[05-Apr-2024 22:02:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[05-Apr-2024 22:02:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[05-Apr-2024 22:02:15 UTC] PHP Parse error:  Unmatched '}' in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\functions.php on line 227
+[05-Apr-2024 22:03:32 UTC] PHP Parse error:  Unmatched '}' in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\functions.php on line 227
+[05-Apr-2024 22:03:33 UTC] PHP Parse error:  Unmatched '}' in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\functions.php on line 227
+[05-Apr-2024 22:03:33 UTC] PHP Parse error:  Unmatched '}' in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\functions.php on line 227
+[05-Apr-2024 22:19:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(19): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 00:43:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(37): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 00:43:57 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(37): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 00:44:07 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(37): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 00:46:17 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(37): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 02:17:42 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 17
+[06-Apr-2024 02:17:42 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 18
+[06-Apr-2024 02:17:42 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 19
+[06-Apr-2024 02:17:42 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 24
+[06-Apr-2024 02:18:26 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 28
+[06-Apr-2024 02:18:26 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 29
+[06-Apr-2024 02:18:26 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 30
+[06-Apr-2024 02:18:26 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 35
+[06-Apr-2024 02:18:57 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 33
+[06-Apr-2024 02:19:01 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 33
+[06-Apr-2024 02:19:02 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 33
+[06-Apr-2024 02:19:18 UTC] PHP Warning:  Undefined variable $findChildrenOf in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 36
+[06-Apr-2024 02:26:41 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page-how-to-guide.php on line 85
+[06-Apr-2024 02:26:58 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page-how-to-guide.php on line 85
+[06-Apr-2024 02:29:09 UTC] PHP Parse error:  syntax error, unexpected token "endif", expecting end of file in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 47
+[06-Apr-2024 02:29:44 UTC] PHP Parse error:  Unclosed '{' on line 24 in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 61
+[06-Apr-2024 02:30:09 UTC] PHP Parse error:  syntax error, unexpected token "endif" in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 46
+[06-Apr-2024 02:30:41 UTC] PHP Parse error:  syntax error, unexpected token "endif" in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 47
+[06-Apr-2024 02:30:43 UTC] PHP Parse error:  syntax error, unexpected token "endif" in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 47
+[06-Apr-2024 02:30:43 UTC] PHP Parse error:  syntax error, unexpected token "endif" in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 47
+[06-Apr-2024 02:30:43 UTC] PHP Parse error:  syntax error, unexpected token "endif" in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 47
+[06-Apr-2024 03:00:38 UTC] PHP Parse error:  syntax error, unexpected token ":" in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\page.php on line 18
+[06-Apr-2024 03:23:57 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(23): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 03:24:09 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(23): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 03:27:06 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(23): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 03:32:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(23): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 03:32:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(23): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 03:34:19 UTC] PHP Fatal error:  Cannot redeclare Walker_Comment::html5_comment() in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 395
+[06-Apr-2024 03:34:19 UTC] PHP Fatal error:  Cannot redeclare Walker_Comment::html5_comment() in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 395
+[06-Apr-2024 03:34:33 UTC] PHP Fatal error:  Cannot redeclare Walker_Comment::html5_comment() in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 395
+[06-Apr-2024 03:34:33 UTC] PHP Fatal error:  Cannot redeclare Walker_Comment::html5_comment() in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 395
+[06-Apr-2024 03:34:34 UTC] PHP Fatal error:  Cannot redeclare Walker_Comment::html5_comment() in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 395
+[06-Apr-2024 03:34:35 UTC] PHP Fatal error:  Cannot redeclare Walker_Comment::html5_comment() in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 395
+[06-Apr-2024 03:34:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(23): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
+[06-Apr-2024 03:39:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "guideline_comment" not found or invalid function name in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php:183
+Stack trace:
+#0 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(147): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#1 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#2 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-wp-walker.php(390): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(2390): Walker->paged_walk(Array, '5', 0, 0, Array)
+#4 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\comments.php(50): wp_list_comments(Array)
+#5 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\comment-template.php(1617): require('C:\\Users\\Richar...')
+#6 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-content\themes\guideline\single.php(23): comments_template()
+#7 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Richar...')
+#8 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Richar...')
+#9 C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\index.php(17): require('C:\\Users\\Richar...')
+#10 {main}
+  thrown in C:\Users\Richarde\Local Sites\automotive-how-to-guide-and-vines\app\public\wp-includes\class-walker-comment.php on line 183
