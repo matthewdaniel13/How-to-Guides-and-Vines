@@ -1,3 +1,7 @@
+
+=======
+
+
 <?php
 /**
  * The template for displaying home page.
@@ -16,6 +20,11 @@ get_header();
      <div class="sitecontent-area">
         <section class="site-main">
         	 <div class="posting-list">
+
+=======
+
+             
+
 					<?php
                     if ( have_posts() ) :
                         // Start the Loop.
@@ -47,4 +56,10 @@ get_header();
         <div class="clear"></div>
     </div><!-- site-aligner -->
 </div><!-- content -->
+
+=======
+=======
+
+
+
 <?php get_footer(); ?>

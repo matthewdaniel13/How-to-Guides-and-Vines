@@ -1,0 +1,8 @@
+
+2024/04/05 19:41:43 [error] 9408#6024: *10351 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /Oil%20Change/how-to-change-your-oil/ HTTP/1.0", upstream: "fastcgi://127.0.0.1:10014", host: "automotive-how-to-guide-and-vines.local", referrer: "http://automotive-how-to-guide-and-vines.local/wp-admin/edit.php?post_type=oilchange"
+2024/04/05 19:41:43 [error] 9408#6024: *10351 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /Oil%20Change/how-to-change-your-oil/ HTTP/1.0", upstream: "fastcgi://127.0.0.1:10015", host: "automotive-how-to-guide-and-vines.local", referrer: "http://automotive-how-to-guide-and-vines.local/wp-admin/edit.php?post_type=oilchange"
+2024/04/05 19:41:48 [error] 9408#6024: *10354 no live upstreams while connecting to upstream, client: 127.0.0.1, server: , request: "GET /Oil%20Change/how-to-change-your-oil/ HTTP/1.0", upstream: "fastcgi://php", host: "automotive-how-to-guide-and-vines.local", referrer: "http://automotive-how-to-guide-and-vines.local/wp-admin/edit.php?post_type=oilchange"
+2024/04/05 19:41:48 [error] 9408#6024: *10355 no live upstreams while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.0", upstream: "fastcgi://php", host: "automotive-how-to-guide-and-vines.local", referrer: "http://automotive-how-to-guide-and-vines.local/Oil%20Change/how-to-change-your-oil/"
+
+2024/04/05 00:01:02 [alert] 3944#23096: OpenEvent("ngx_master_19676") failed (2: The system cannot find the file specified)
+
