@@ -1,4 +1,7 @@
 
+=======
+
+
 <?php
 /**
  * The Sidebar containing the main widget areas.
@@ -10,6 +13,8 @@
     <?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>              
         <aside id="archives" class="widget"> 
         <h3 class="widget-title"><?php esc_html_e( 'Archives', 'guideline' ); ?></h3>          
+
+=======
 
 <div id="sidebar">    
     <?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>              
@@ -24,9 +29,14 @@
 
          <aside id="meta" class="widget"> 
          <h3 class="widget-title"><?php esc_html_e( 'Meta', 'guideline' ); ?></h3>          
+=======
+
+         <aside id="meta" class="widget"> 
+         <h3 class="widget-title"><?php esc_html_e( 'Meta', 'guideline' ); ?></h3>          
 
         <aside id="meta" class="widget"> 
             <h3 class="widget-title"><?php esc_html_e( 'Meta', 'guideline' ); ?></h3>          
+
 
             <ul>
                 <?php wp_register(); ?>
@@ -35,6 +45,9 @@
             </ul>
         </aside>
     <?php endif; // end sidebar widget area ?>	
+
+</div><!-- sidebar -->
+=======
 
 </div><!-- sidebar -->
 
@@ -92,5 +105,6 @@
     <!-- Add more custom queries as needed -->
 
 </div><!-- sidebar -->
+
 
 

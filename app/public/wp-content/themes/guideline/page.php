@@ -59,6 +59,7 @@ get_header(); ?>
 </div><!-- .container -->
 <?php get_footer(); ?>
 
+
 	<div class="container">
       <div class="sitecontent-area">
     		 <section class="site-main">
@@ -75,5 +76,9 @@ get_header(); ?>
     <div class="clear"></div>
     </div><!-- .sitecontent-area --> 
  </div><!-- .container --> 
+
 <?php get_footer(); ?>
+=======
+<?php get_footer(); ?>
+
 
