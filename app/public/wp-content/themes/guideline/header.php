@@ -1,7 +1,10 @@
 <?php
 
+=======
+
 
 =======
+
 
 /**
  * The Header for our theme.
@@ -10,6 +13,8 @@
  *
  * @package Guideline
  */
+
+=======
 
 ?>
 <!DOCTYPE html>
@@ -160,6 +165,7 @@
 <?php }
 } ?>
 =======
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -284,5 +290,9 @@
               <div class="clear"></div>
             </div><!-- .container -->
        </section>                
+
 <?php } } ?>
+=======
+<?php } } ?>
+
 

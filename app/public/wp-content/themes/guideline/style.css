@@ -39,6 +39,8 @@ height:auto;
 max-width:100%;
 }
 
+=======
+
 /* Pagination */
 .pagination {
     margin-top: 20px;
@@ -63,6 +65,7 @@ max-width:100%;
 .pagination .page-numbers:hover {
     background-color: #f0f0f0;
 }
+
 
 
 .wp-caption,
@@ -302,6 +305,8 @@ h3.widget-title{ padding:12px 15px; margin:-20px -20px 10px; color:#222; font-si
 .footerleft span{color:#f98700;}
 .footerright { float:right;}
 
+=======
+
 /* Breadcrumb styles */
 .breadcrumb {
     font-size: 16px;
@@ -501,3 +506,4 @@ h3.widget-title{ padding:12px 15px; margin:-20px -20px 10px; color:#222; font-si
 .login-signup a:hover {
     background-color: #0056b3;
 }
+

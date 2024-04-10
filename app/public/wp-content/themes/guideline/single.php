@@ -1,5 +1,8 @@
 
+=======
+
 <?php get_header(); ?>
+
 
 <?php
             $homepageEvents = new WP_Query(array(
@@ -21,6 +24,11 @@
 
 get_header(); ?>
 
+
+<div class="container">
+    <div class="sitecontent-area">
+        <section class="site-main">
+=======
 
 <div class="container">
     <div class="sitecontent-area">
@@ -57,6 +65,7 @@ get_header(); ?>
 
 <?php get_footer(); ?>
 
+
             <div class="metabox metabox--position-up metabox--with-home-link">
                 <p><a class="metabox__blog-home-link" href="<?php echo get_post_type_archive_link('Oil Change'); ?>">
                         <i class="fa fa-home" aria-hidden="true"></i> Oil Change</a>
@@ -79,5 +88,9 @@ get_header(); ?>
         <div class="clear"></div>
     </div><!-- sitecontent-area -->
 </div><!-- container -->
+
 <?php get_footer(); ?>
+=======
+<?php get_footer(); ?>
+
 
